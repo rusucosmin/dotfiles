@@ -1,0 +1,12 @@
+[user]
+	name = rusucosmin
+	emal = cr.rusucosmin@gmail.com
+	email = cr.rusucosmin@gmail.com
+[github]
+	user = rusucosmin
+[core]
+	autocrlf = input
+[credential]
+	helper = cache --timeout=3600
+[color]
+	ui = true

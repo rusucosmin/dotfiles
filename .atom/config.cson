@@ -1,0 +1,20 @@
+"*":
+  "exception-reporting":
+    userId: "14353347-7811-4b69-3e26-2d13a143a930"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    invisibles:
+      {}
+    fontSize: 12
+  "vim-mode":
+    {}
+  minimap:
+    absoluteMode: true
+    scrollAnimation: true
+    scrollAnimationDuration: 200

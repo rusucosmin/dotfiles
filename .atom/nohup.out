@@ -1,0 +1,46 @@
+[12037:0705/140926:ERROR:browser_main_loop.cc(170)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+Application server fai[12140:0705/140929:INFO:renderer_main.cc(212)] Renderer process started
+[12024:0705/140948:ERROR:connection.cc(1060)] Cookie sqlite error 5, errno 0: database is locked, sql: DELETE FROM cookies WHERE persistent == 0
+[12024:0705/140948:WARNING:sqlite_persistent_cookie_store.cc(1217)] Unable to delete session cookies.
+[12024:0705/140950:INFO:CONSOLE(56)] "Window load time: 16664ms", source: file:///usr/share/atom/resources/app.asar/static/index.js (56)
+[12024:0705/140958:ERROR:connection.cc(1060)] DOMStorageDatabase sqlite error 5, errno 0: database is locked, sql: INSERT INTO ItemTable VALUES (?,?)
+[12079:0705/141000:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+Cannot read property 'loaded' of null
+TypeError: Cannot read property 'loaded' of null
+    at AtomWindow.module.exports.AtomWindow.getLoadSettings (/usr/share/atom/resources/app.asar/src/brows[12078:0705/141141:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/141326:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/141331:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/141401:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/141403:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+Cannot read property 'map' of undefined
+TypeError: Cannot read property 'map' of undefined
+    at AtomApplication.module.exports.AtomApplication.openPaths (/usr/share/atom/resources/app.asar/src/browser/atom-application.js:617:32)
+    at /usr/share/atom/resources/app.asar/src/browser/atom-application.js:916:24
+    at Function.wrappedCallback (/usr/share/atom/resources/atom.asar/browser/api/lib/dialog.js:78:16)
+[12078:0705/141917:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+The setuid sandbox is not running as root. Common causes:
+  * An unprivileged process using ptrace on it, like a debugger.
+  * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...)
+Failed to move to new namespace: PID namespaces supported, Network namespace supported, but failed: errno = Operation not permitted
+The setuid sandbox is not running as root. Common causes:
+  * An unprivileged process using ptrace on it, like a debugger.
+  * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...)
+Failed to move to new namespace: PID namespaces supported, Network namespace supported, but failed: errno = Operation not permitted
+The setuid sandbox is not running as root. Common causes:
+  * An unprivileged process using ptrace on it, like a debugger.
+  * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...)
+Failed to move to new namespace: PID namespaces supported, Network namespace supported, but failed: errno = Operation not permitted
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: ocsp.digicert.com
+[12037:0705/142104:ERROR:nss_ocsp.cc(625)] No URLRequestContext for NSS HTTP handler. host: crl4.digicert.com
+[12078:0705/142612:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/143728:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/144140:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[12078:0705/144332:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
+[13534:0705/144516:INFO:renderer_main.cc(212)] Renderer process started
+[12037:0705/144518:INFO:CONSOLE(56)] "Window load time: 1240ms", source: file:///usr/share/atom/resources/app.asar/static/index.js (56)
+[12078:0705/144539:ERROR:sync_control_vsync_provider.cc(60)] glXGetSyncValuesOML should not return TRUE with a media stream counter of 0.
