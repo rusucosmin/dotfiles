@@ -1,0 +1,9 @@
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule ".vim/oh-my-zsh"]
+	path = .vim/oh-my-zsh
+	url = http://github.com/robbyrussell/oh-my-zsh.git
+[submodule ".vim/bundle/gist-vim"]
+	path = .vim/bundle/gist-vim
+	url = https://github.com/mattn/gist-vim
