@@ -87,9 +87,9 @@ function! CompileAndRun()
   if &filetype == 'c'
     !gcc % && ./a.out && rm a.out
   elseif &filetype == 'cpp'
-    !g++ -O2 -std=c++11 -Wall -static % -lm && ./a.out && rm a.out
-  elseif &filetype == 'py'
-    !python %
+		!g++ -O2 -std=c++11 -Wall -static % -lm && ./a.out && rm a.out
+  elseif &filetype == 'python'
+    !python % 
   elseif &filetype == 'php'
     !php %
   elseif &filetype == 'perl'
@@ -99,7 +99,7 @@ function! CompileAndRun()
   endif
 endfunction
 
-nnoremap ,c <ESC>:w!<cr>:call CompileAndRun()<cr>
+nnoremap ,c <ESC>:w!<CR>:call CompileAndRun()<CR>
 
 inoremap {<CR> {<CR>}<C-o>O<Tab>
 
