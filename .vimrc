@@ -29,7 +29,7 @@ let g:gist_show_privates = 1
 let g:gist_post_private = 1
 
 set autoindent
-set tabstop=2
+set tabstop=4
 
 set relativenumber
 set number
@@ -87,7 +87,7 @@ function! CompileAndRun()
   if &filetype == 'c'
     !gcc % && ./a.out && rm a.out
   elseif &filetype == 'cpp'
-		!g++ -O2 -std=c++11 -Wall -static % -lm && ./a.out && rm a.out
+		!g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
   elseif &filetype == 'python'
     !python % 
   elseif &filetype == 'php'
