@@ -109,3 +109,6 @@ fi
 export PATH=${PATH}:${HOME}/Android/adt-bundle-linux-x86_64-20140702/sdk/tools:${HOME}/Android/adt-bundle-linux-x86_64-20140702/sdk/platform-tools
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export VISUAL=vim
+export EDITOR=vim

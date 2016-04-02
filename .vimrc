@@ -29,7 +29,14 @@ let g:gist_show_privates = 1
 let g:gist_post_private = 1
 
 set autoindent
+
 set tabstop=4
+set shiftwidth=4 		
+"Replaces tabs with spaces
+set expandtab 			
+	
+"Highlights trailing whitespaces and tabs
+set list listchars=tab:>-,trail:¤
 
 set relativenumber
 set number
@@ -89,7 +96,7 @@ function! CompileAndRun()
   elseif &filetype == 'cpp'
 		!g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
   elseif &filetype == 'python'
-    !python % 
+    !python3 % 
   elseif &filetype == 'php'
     !php %
   elseif &filetype == 'perl'
