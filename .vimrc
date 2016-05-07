@@ -46,6 +46,9 @@ set cursorcolumn
 set wildmenu
 set autoread
 
+"For make file -> do NOT replace tabs with space
+autocmd FileType make setlocal noexpandtab
+
 
 
 "hi CursorColumn ctermfg=39 ctermbg=none cterm=bold
@@ -83,9 +86,9 @@ endfunction
 
 function! Mosh_Tab_Or_Complete()
     if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-	    return "\<C-N>"
+        return "\<C-N>"
     else
-   	    return "\<Tab>"
+        return "\<Tab>"
 endfunction
 inoremap <Tab> <C-R>=Mosh_Tab_Or_Complete()<CR>
 
@@ -94,7 +97,7 @@ function! CompileAndRun()
   if &filetype == 'c'
     !gcc % && ./a.out && rm a.out
   elseif &filetype == 'cpp'
-		!g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
+    !g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
   elseif &filetype == 'python'
     !python3 % 
   elseif &filetype == 'php'
@@ -113,3 +116,4 @@ inoremap {<CR> {<CR>}<C-o>O<Tab>
 execute pathogen#infect()
 
 autocmd vimenter * NERDTree
+autocmd BufNewFile,BufRead *.md set filetype=markdown
