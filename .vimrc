@@ -64,17 +64,21 @@ hi Visual cterm=NONE ctermbg=White ctermfg=Black
 
 "Status Bar based on an answer from here http://stackoverflow.com/questions/5375240/a-more-useful-statusline-in-vim
 
-set statusline=
-set statusline+=\[%n]                                  "buffernr
-set statusline+=\ \ %m%r%w\ %P\ \                      "Modified? Readonly? Top/bot.
-set statusline+=\ %<%F\                                "File+path
-set statusline+=\ %y\                                  "FileType
-set statusline+=\ %{''.(&fenc!=''?&fenc:&enc).''}      "Encoding
-set statusline+=\ %{(&bomb?\",BOM\":\"\")}\            "Encoding2
-set statusline+=\ %{&ff}\                              "FileFormat (dos/unix..) 
-set statusline+=\ %{&spelllang}\%{HighlightSearch()}\  "Spellanguage & Highlight on?
-set statusline+=\ %=\ Row:%l/%L\ (%p%%)\                "Rownumber/total (%)
-set statusline+=\ Column:%c\                            "Colnr
+"set statusline=
+"set statusline+=\[%n]                                  "buffernr
+"set statusline+=\ \ %m%r%w\ %P\ \                      "Modified? Readonly? Top/bot.
+"set statusline+=\ %<%F\                                "File+path
+"set statusline+=\ %y\                                  "FileType
+"set statusline+=\ %{''.(&fenc!=''?&fenc:&enc).''}      "Encoding
+"set statusline+=\ %{(&bomb?\",BOM\":\"\")}\            "Encoding2
+"set statusline+=\ %{&ff}\                              "FileFormat (dos/unix..) 
+"set statusline+=\ %{&spelllang}\%{HighlightSearch()}\  "Spellanguage & Highlight on?
+"set statusline+=\ %=\ Row:%l/%L\ (%p%%)\                "Rownumber/total (%)
+"set statusline+=\ Column:%c\                            "Colnr
+
+"Airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme='powerlineish'
 
 function! HighlightSearch()
   if &hls
