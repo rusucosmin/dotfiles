@@ -1,4 +1,2 @@
-# Dotfiles
-Just my ubuntu dotfiles
-
-TODO: Add an install script
+#Dotfiles
+just my dotfilezz

@@ -10,3 +10,4 @@ alias youtubetomp3="cd ~/Music; google-musicmanager;youtube-dl --extract-audio -
 alias python=python3
 alias gitCommitAll=gitCommitAllFunction
 alias please='sudo'
+alias geogebra="/usr/lib/geogebra/geogebra-portable"
