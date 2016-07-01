@@ -104,6 +104,8 @@ function! CompileAndRun()
     !g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
   elseif &filetype == 'python'
     !python3 % 
+  elseif &filetype == 'java'
+    !javac % && java %:r
   elseif &filetype == 'php'
     !php %
   elseif &filetype == 'perl'
