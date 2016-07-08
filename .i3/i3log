@@ -1,0 +1,6 @@
+07/07/2016 10:15:49 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/07/2016 10:15:49 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/07/2016 10:15:49 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/07/2016 10:15:49 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+ERROR: Another window manager seems to be running (X error 10)
