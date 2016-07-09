@@ -161,9 +161,9 @@ exec --no-startup-id xset dpms 600
 bindsym $mod+p exec lock
 
 # Pulse Audio controls
-bindsym $mod+period exec pactl set-sink-volume 1 +5% #increase sound volume
-bindsym $mod+comma exec pactl set-sink-volume 1 -- -5% #decrease sound volume
-bindsym $mod+m exec pactl set-sink-mute 1 toggle # mute sound
+bindsym $mod+period exec pactl set-sink-volume 0 +5% #increase sound volume
+bindsym $mod+comma exec pactl set-sink-volume 0 -- -5% #decrease sound volume
+bindsym $mod+m exec pactl set-sink-mute 0 toggle # mute sound
 
 
 
