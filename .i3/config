@@ -189,6 +189,7 @@ exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 exec xrandr --output DP2-8 --auto --right-of VGA1
 exec --no-startup-id xautolock -time 10 -locker /usr/local/bin/lock
 exec --no-startup-id xset dpms 600
+exec --no-startup-id feh --randomize --bg-fill ~/.wallpapers/*
 
 
 bindsym $mod+p exec lock

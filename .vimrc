@@ -12,7 +12,7 @@ colorscheme molokai
 "colorscheme beekai
 "colorscheme badwolf
 
-let g:solarized_termcolors=256 
+let g:solarized_termcolors=256
 set t_Co=256
 
 "hi Normal ctermbg=none
@@ -60,7 +60,7 @@ autocmd FileType make setlocal noexpandtab
 "hi StatusLine ctermbg=100
 "hi VertSplit 
 "hi StatusLine ctermbg=12 ctermfg=whatever
-hi Visual cterm=NONE ctermbg=White ctermfg=Black
+"hi Visual cterm=NONE ctermbg=White ctermfg=NONE
 
 "Status Bar based on an answer from here http://stackoverflow.com/questions/5375240/a-more-useful-statusline-in-vim
 
