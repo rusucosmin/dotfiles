@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/webapi-vim"]
 	path = .vim/bundle/webapi-vim
 	url = https://github.com/mattn/webapi-vim
+[submodule ".i3/i3lock-fancy-multimonitor"]
+	path = .i3/i3lock-fancy-multimonitor
+	url = https://github.com/guimeira/i3lock-fancy-multimonitor

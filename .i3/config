@@ -18,7 +18,8 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-# font pango:DejaVu Sans Mono 10
+#ont pango:DejaVu Sans Mono 8
+font pango: Monospace 8
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -145,9 +146,41 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
 bar {
-        status_command i3status
+    colors {
+        # Whole color settings
+        background #000000
+        statusline #ffffff
+        separator  #666666
+
+        # Type             border  background font
+        focused_workspace  #008fff #007fff #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #aa0000 #990000 #ffffff
+    }
+    # i3bar position
+    # position top
+    # Using custom i3status.conf
+    status_command i3status -c ~/.i3/i3status.conf
 }
+
+#Old status bar
+#bar {
+#  status_command i3status
+#  colors {
+#    separator #666666
+#    background #222222
+#    statusline #dddddd
+#    focused_workspace #0088CC #0088CC #ffffff
+#    active_workspace #333333 #333333 #ffffff
+#    inactive_workspace #333333 #333333 #888888
+#    urgent_workspace #2f343a #900000 #ffffff
+#  }
+#}
 
 
 #exec
@@ -156,14 +189,17 @@ exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
 exec xrandr --output DP2-8 --auto --right-of VGA1
 exec --no-startup-id xautolock -time 10 -locker /usr/local/bin/lock
 exec --no-startup-id xset dpms 600
+exec --no-startup-id feh --randomize --bg-fill ~/.wallpapers/*
 
-
+#lock
 bindsym $mod+p exec lock
 
 # Pulse Audio controls
-bindsym $mod+period exec pactl set-sink-volume 1 +5% #increase sound volume
-bindsym $mod+comma exec pactl set-sink-volume 1 -- -5% #decrease sound volume
-bindsym $mod+m exec pactl set-sink-mute 1 toggle # mute sound
+bindsym $mod+period exec pactl set-sink-volume 0 +5% #increase sound volume
+bindsym $mod+comma exec pactl set-sink-volume 0 -- -5% #decrease sound volume
+bindsym $mod+m exec pactl set-sink-mute 0 toggle # mute sound
 
-
-
+client.focused #0088CC #0088CC #ffffff #dddddd
+client.focused_inactive #333333 #333333 #888888 #292d2e
+client.unfocused #333333 #333333 #888888 #292d2e
+client.urgent #2f343a #900000 #ffffff #900000
