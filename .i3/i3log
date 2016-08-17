@@ -20,3 +20,59 @@ deciding for version 4 due to this line: # i3 config file (v4)
 07/10/2016 11:14:22 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
 07/10/2016 11:14:22 AM - [libi3] libi3/font.c X11 root window dictates 96.094581 DPI
 ERROR: Another window manager seems to be running (X error 10)
+07/14/2016 09:04:06 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/14/2016 09:04:06 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/14/2016 09:04:06 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/14/2016 09:04:06 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/14/2016 09:04:06 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/14/2016 09:04:06 AM - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+ERROR: Another window manager seems to be running (X error 10)
+07/18/2016 09:08:32 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/18/2016 09:08:32 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/18/2016 09:08:33 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/18/2016 09:08:33 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/18/2016 09:08:33 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/18/2016 09:08:33 AM - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+ERROR: Another window manager seems to be running (X error 10)
+07/18/2016 09:39:13 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/18/2016 09:39:13 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/18/2016 09:39:14 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/18/2016 09:39:14 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/18/2016 09:39:14 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/18/2016 09:39:14 AM - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+ERROR: Another window manager seems to be running (X error 10)
+07/20/2016 09:09:53 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/20/2016 09:09:53 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/20/2016 09:09:53 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/20/2016 09:09:53 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/20/2016 09:09:53 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/20/2016 09:09:53 AM - [libi3] libi3/font.c X11 root window dictates 95.916084 DPI
+ERROR: Another window manager seems to be running (X error 10)
+07/27/2016 09:26:49 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/27/2016 09:26:49 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/27/2016 09:26:49 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/27/2016 09:26:49 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/27/2016 09:26:49 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/27/2016 09:26:49 AM - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+ERROR: Another window manager seems to be running (X error 10)
+07/27/2016 11:22:15 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+07/27/2016 11:22:15 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+07/27/2016 11:22:15 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+07/27/2016 11:22:15 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+07/27/2016 11:22:15 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+07/27/2016 11:22:15 AM - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+ERROR: Another window manager seems to be running (X error 10)
+08/16/2016 08:59:37 AM - ERROR: Using Xinerama instead of RandR. This option should be avoided at all cost because it does not refresh the list of screens, so you cannot configure displays at runtime. Please check if your driver really does not support RandR and disable this option as soon as you can.
+08/16/2016 08:59:37 AM - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+08/16/2016 08:59:37 AM - Parsing configfile /home/local/ANT/cosmir/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+08/16/2016 08:59:37 AM - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+08/16/2016 08:59:37 AM - [libi3] libi3/font.c Using Pango font Monospace, size 8
+08/16/2016 08:59:37 AM - [libi3] libi3/font.c X11 root window dictates 95.916084 DPI
+ERROR: Another window manager seems to be running (X error 10)

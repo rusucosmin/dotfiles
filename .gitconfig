@@ -11,3 +11,5 @@
 	ui = auto
 [push]
 	default = simple
+[alias]
+	show-graph = log --graph --abbrev-commit --pretty=oneline

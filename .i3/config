@@ -186,18 +186,18 @@ bar {
 #exec
 exec --no-startup-id nm-applet
 exec i3 --force-xinerama -V >>~/.i3/i3log 2>&1
-exec xrandr --output DP2-8 --auto --right-of VGA1
+exec xrandr --output DP1-8 --auto --right-of VGA1
 exec --no-startup-id xautolock -time 10 -locker /usr/local/bin/lock
 exec --no-startup-id xset dpms 600
-exec --no-startup-id feh --randomize --bg-fill ~/.wallpapers/*
+exec --no-startup-id feh --randomize --bg-fill ~/.wallpapers/* --randomize --bg-fill ~/.wallpapers/*
 
 #lock
 bindsym $mod+p exec lock
 
 # Pulse Audio controls
-bindsym $mod+period exec pactl set-sink-volume 0 +5% #increase sound volume
-bindsym $mod+comma exec pactl set-sink-volume 0 -- -5% #decrease sound volume
-bindsym $mod+m exec pactl set-sink-mute 0 toggle # mute sound
+bindsym $mod+period exec pactl set-sink-volume 1 +5% #increase sound volume
+bindsym $mod+comma exec pactl set-sink-volume 1 -- -5% #decrease sound volume
+bindsym $mod+m exec pactl set-sink-mute 1 toggle # mute sound
 
 client.focused #0088CC #0088CC #ffffff #dddddd
 client.focused_inactive #333333 #333333 #888888 #292d2e
