@@ -112,3 +112,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export VISUAL=vim
 export EDITOR=vim
+
+# added by travis gem
+[ -f /home/cosmin/.travis/travis.sh ] && source /home/cosmin/.travis/travis.sh
