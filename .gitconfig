@@ -1,6 +1,6 @@
 [user]
-	name = rusucosmin
-	email = cr.rusucosmin@gmail.com
+	name = cosmir
+	email = cosmir@amazon.com
 [github]
 	user = rusucosmin
 [core]
@@ -11,3 +11,5 @@
 	ui = auto
 [push]
 	default = simple
+[alias]
+	show-graph = log --graph --abbrev-commit --pretty=oneline

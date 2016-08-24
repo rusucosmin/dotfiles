@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=~/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -82,5 +82,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias ssh-cosmir="ssh cosmir-4.desktop.amazon.com"
+alias start-vm='VBoxManage startvm "RHEL5"'
 source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
