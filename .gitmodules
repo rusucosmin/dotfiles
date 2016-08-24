@@ -19,3 +19,6 @@
 [submodule ".i3/i3lock-fancy-multimonitor"]
 	path = .i3/i3lock-fancy-multimonitor
 	url = https://github.com/guimeira/i3lock-fancy-multimonitor
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
