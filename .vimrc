@@ -1,4 +1,4 @@
-syntax enable 
+syntax enable
 
 set background=dark
 
@@ -125,3 +125,4 @@ execute pathogen#infect()
 
 autocmd vimenter * NERDTree
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd VimEnter * wincmd p
