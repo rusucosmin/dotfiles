@@ -28,5 +28,7 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
-######## Zsh instalation
+######## Set ZSH as default shell
+echo "> Setting zsh as default shell"
+echo "> May require password"
 chsh -s /bin/zsh
