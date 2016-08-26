@@ -49,7 +49,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 # User configuration
 
@@ -81,7 +81,6 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="source ~/.zshrc"
-source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias topcoder_arena="javaws http://community.topcoder.com/contest/arena/ContestAppletProd.jnlp"
 alias hl="highlight -l -t4 --fragment --enclose-pre"
 alias youtubetomp3="cd ~/Music; google-musicmanager;youtube-dl --extract-audio --audio-format mp3"
