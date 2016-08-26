@@ -1,34 +1,32 @@
 #!/bin/bash
+
 ############################
-# .make.sh
+# install.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 ############################
 
 ########## Variables
-
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".atom .vim .bash_aliases .bash_profile .bashrc .gitconfig .vimrc .zshrc .wallpapers"    # list of files/folders to symlink in homedir
+files=".i3 .oh-my-zsh .vim .wallpapers .bash_aliases .bash_profile .bashrc .gitconfig .vimrc .zshrc"
 
-##########
+########## Create dotfiles_old in homedir
 
-# create dotfiles_old in homedir
-echo -n "Creating $olddir for backup of any existing dotfiles in ~ ..."
+echo -n "> Creating $olddir for backup of any existing dotfiles"
 mkdir -p $olddir
-echo "done"
 
-# change to the dotfiles directory
-echo -n "Changing to the $dir directory ..."
+######### Change to the dotfiles directory
+echo -n "> Changing to the $dir directory"
 cd $dir
-echo "done"
 
-# move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
+######### Move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks
+######### from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
-    echo "Moving any existing dotfiles from ~ to $olddir"
+    echo "> Backup file ~/$file to $olddir"
     mv ~/$file ~/dotfiles_old/
-    echo "Creating symlink to $file in home directory."
+    echo "> Creating symlink to $file"
     ln -s $dir/$file ~/$file
 done
 
-#zsh instalation
+######## Zsh instalation
 chsh -s /bin/zsh
