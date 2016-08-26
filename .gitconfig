@@ -1,15 +1,13 @@
 [user]
-	name = cosmir
-	email = cosmir@amazon.com
+    name = cosmin
+    email = cr.rusucosmin@gmail.com
 [github]
-	user = rusucosmin
+    user = rusucosmin
 [core]
-	autocrlf = input
+    autocrlf = input
 [credential]
-	helper = cache --timeout=3600
+    helper = cache --timeout=3600
 [color]
-	ui = auto
-[push]
-	default = simple
+    ui = auto
 [alias]
-	show-graph = log --graph --abbrev-commit --pretty=oneline
+    show-graph = log --graph --abbrev-commit --pretty=oneline
