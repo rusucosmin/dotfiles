@@ -27,10 +27,10 @@ ZSH_THEME="agnoster"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -80,8 +80,16 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ssh-cosmir="ssh cosmir-4.desktop.amazon.com"
-alias start-vm='VBoxManage startvm "RHEL5"'
+alias zshconfig="source ~/.zshrc"
 source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias topcoder_arena="javaws http://community.topcoder.com/contest/arena/ContestAppletProd.jnlp"
+alias hl="highlight -l -t4 --fragment --enclose-pre"
+alias youtubetomp3="cd ~/Music; google-musicmanager;youtube-dl --extract-audio --audio-format mp3"
+gitCommitAllFunction() {
+    git add -A
+    git commit -m "$1"
+    git push origin master
+}
+alias gitCommitAll=gitCommitAllFunction
+alias please='sudo'
+alias geogebra="/usr/lib/geogebra/geogebra-portable"
