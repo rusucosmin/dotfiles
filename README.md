@@ -14,15 +14,20 @@ This repository contains my dotfiles
 - Clone
     - This repository contains various other repositories(for plugins and stuff), so we must clone all of them.
     - This is how you clone every repository (including this one) at once
-    `git clone --recursive https://github.com/rusucosmin/dotfiles`
+    ```
+    git clone --recursive https://github.com/rusucosmin/dotfiles
+    ```
     - However, for an already cloned repository, one can run the following lines:
-    `git clone https://github.com/rusucosmin/dotfiles`
-    `cd dotfiles`
-    `git submodule update --init`
+    ```
+    git clone https://github.com/rusucosmin/dotfiles
+    cd dotfiles
+    git submodule update --init
+    ```
 - Install
     - In order to install the dotfiles, you just have to run the script:
-    `./install.sh`
+    ```
+    ./install.sh
+    ```
     - All your dotfiles will be save in the folder dotfiles_old, so you won't loose your current config.
 
 ###How does it look like with a fresh install?
-
