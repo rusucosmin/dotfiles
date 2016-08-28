@@ -32,9 +32,9 @@ This repository contains my dotfiles
 
 ###How does it look like with a fresh install?
 ![Background](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/bg.png)
-![Lock](file:///home/cosmin/dotfiles/screenshots/lock.png)
+![Lock](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/lock.png)
 ![Terminal](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/cmdline.png)
-![Colorize Zsh](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/colorize.png)
+![Colorize Zsh](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/colorize_zsh.png)
 ![Vim start](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim-start.png)
 ![Vim 1](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim1.png)
 ![Vim 2](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim2.png)
