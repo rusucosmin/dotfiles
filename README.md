@@ -31,3 +31,4 @@ This repository contains my dotfiles
     - All your dotfiles will be save in the folder dotfiles_old, so you won't loose your current config.
 
 ###How does it look like with a fresh install?
+Creating scrrenshots for this section
