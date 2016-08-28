@@ -195,9 +195,9 @@ exec --no-startup-id feh --randomize --bg-fill ~/.wallpapers/* --randomize --bg-
 bindsym $mod+p exec lock
 
 # Pulse Audio controls
-bindsym $mod+period exec pactl set-sink-volume 1 +5% #increase sound volume
-bindsym $mod+comma exec pactl set-sink-volume 1 -- -5% #decrease sound volume
-bindsym $mod+m exec pactl set-sink-mute 1 toggle # mute sound
+bindsym $mod+period exec pactl set-sink-volume 0 +5% #increase sound volume
+bindsym $mod+comma exec pactl set-sink-volume 0 -- -5% #decrease sound volume
+bindsym $mod+m exec pactl set-sink-mute 0 toggle # mute sound
 
 client.focused #0088CC #0088CC #ffffff #dddddd
 client.focused_inactive #333333 #333333 #888888 #292d2e
