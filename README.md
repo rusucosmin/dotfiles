@@ -31,4 +31,10 @@ This repository contains my dotfiles
     - All your dotfiles will be save in the folder dotfiles_old, so you won't loose your current config.
 
 ###How does it look like with a fresh install?
-Creating scrrenshots for this section
+![Background](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/bg.png)
+![Lock](file:///home/cosmin/dotfiles/screenshots/lock.png)
+![Terminal](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/cmdline.png)
+![Colorize Zsh](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/colorize.png)
+![Vim start](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim-start.png)
+![Vim 1](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim1.png)
+![Vim 2](https://raw.githubusercontent.com/rusucosmin/dotfiles/master/screenshots/vim2.png)
