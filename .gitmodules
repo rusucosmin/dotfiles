@@ -31,3 +31,6 @@
 [submodule ".zsh-plugins/zsh-syntax-highlighting"]
 	path = .zsh-plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule ".vim/bundle/vim-javascript-syntax"]
+	path = .vim/bundle/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
