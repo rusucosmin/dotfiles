@@ -1,25 +1,22 @@
 syntax enable
 
-set background=dark
 
-"colorscheme solarized
+set t_Co=256
+let g:solarized_termcolors=256
+"let g:molokai_original = 1
+
 "colorscheme github
-colorscheme molokai
+"colorscheme molokai
 "colorscheme corporation
 "colorscheme 256_jungle
 "colorscheme wells-colors
 "colorscheme railscasts
 "colorscheme beekai
 "colorscheme badwolf
+colorscheme solarized
 
-let g:solarized_termcolors=256
-set t_Co=256
-
-"hi Normal ctermbg=none
-"hi NonText ctermbg=none
 
 let g:cpp_class_scope_highlight = 1
-"let g:molokai_original = 1
 "let g:rehash256 = 1
 
 "Gist-vim
@@ -31,10 +28,9 @@ let g:gist_post_private = 1
 set autoindent
 
 set tabstop=4
-set shiftwidth=4 		
+set shiftwidth=4
 "Replaces tabs with spaces
-set expandtab 			
-	
+set expandtab
 "Highlights trailing whitespaces and tabs
 set list listchars=tab:>-,trail:¤
 
@@ -49,18 +45,17 @@ set autoread
 "For make file -> do NOT replace tabs with space
 autocmd FileType make setlocal noexpandtab
 
+hi NonText ctermbg=none
+hi Normal ctermfg=252 ctermbg=none
+hi NonText ctermfg=252 ctermbg=none
+hi CursorColumn ctermfg=none ctermbg=none cterm=bold
+hi Cursorline ctermfg=none ctermbg=none cterm=bold
+hi LineNr ctermbg=none
+hi ColumnNr ctermbg=none
+hi StatusLine ctermbg=0 cterm=none
 
-
-"hi CursorColumn ctermfg=39 ctermbg=none cterm=bold
-"hi Cursorline ctermfg=39 ctermbg=none cterm=bold
-"hi cursorline ctermbg=none
-"hi cursorcolumn ctermbg=none
-"hi LineNr ctermbg=none
-"hi ColumnNr ctermbg=none
-"hi StatusLine ctermbg=100
-"hi VertSplit 
-"hi StatusLine ctermbg=12 ctermfg=whatever
-"hi Visual cterm=NONE ctermbg=White ctermfg=NONE
+"autocmd VimEnter * hi Normal ctermbg=none
+"hi Visual cterm=none ctermbg=White ctermfg=none
 
 "Status Bar based on an answer from here http://stackoverflow.com/questions/5375240/a-more-useful-statusline-in-vim
 
@@ -78,7 +73,7 @@ autocmd FileType make setlocal noexpandtab
 
 "Airline
 let g:airline_powerline_fonts = 1
-let g:airline_theme='powerlineish'
+let g:airline_theme='solarized'
 
 function! HighlightSearch()
   if &hls
@@ -101,9 +96,11 @@ function! CompileAndRun()
   if &filetype == 'c'
     !gcc % && ./a.out && rm a.out
   elseif &filetype == 'cpp'
-    !g++ -O2 -std=c++11 -Dhome -Wall -static % -lm && ./a.out && rm a.out
+    !g++ -O2 -std=c++11 -Dhome -Wall % && ./a.out && rm a.out
+  elseif &filetype == 'lisp'
+    !clisp %
   elseif &filetype == 'python'
-   !python3 %
+   !python %
   elseif &filetype == 'javascript'
     !node %
   elseif &filetype == 'java'
@@ -114,6 +111,8 @@ function! CompileAndRun()
     !perl %
   elseif &filetype == 'sh'
     !bash %
+  elseif &filetype == 'haskell'
+    !ghc -o a.out % && ./a.out && rm a.out
   endif
 endfunction
 

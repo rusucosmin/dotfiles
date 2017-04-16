@@ -1,8 +1,8 @@
 [user]
-    name = cosmin
-    email = cr.rusucosmin@gmail.com
+	name = Cosmin
+	email = cr.rusucosmin@gmail.com
 [github]
-    user = rusucosmin
+	user = rusucosmin
 [core]
     autocrlf = input
 [credential]

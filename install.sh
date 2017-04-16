@@ -8,7 +8,7 @@
 ########## Variables
 DIR=~/dotfiles                    # dotfiles directory
 OLD_DIR=~/dotfiles_old             # old dotfiles backup directory
-DOTS=".i3 .oh-my-zsh .vim .wallpapers .bash_aliases .bash_profile .bashrc .gitconfig .vimrc .zshrc"
+DOTS=".i3 .vim .wallpapers .bash_aliases .bash_profile .bashrc .gitconfig .vimrc .zshrc"
 ZSH_PLUGINS=".zsh-plugins"
 ZSH_PLUG_DIR=".oh-my-zsh/custom/plugins"
 
