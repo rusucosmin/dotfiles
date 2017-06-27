@@ -1,13 +1,5 @@
 [user]
-	name = Cosmin
-	email = cr.rusucosmin@gmail.com
+  name = Cosmin
+  email = cr.rusucosmin@gmail.com
 [github]
-	user = rusucosmin
-[core]
-    autocrlf = input
-[credential]
-    helper = cache --timeout=3600
-[color]
-    ui = auto
-[alias]
-    show-graph = log --graph --abbrev-commit --pretty=oneline
+  user = rusucosmin

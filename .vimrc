@@ -10,14 +10,10 @@ let g:solarized_termcolors=256
 "colorscheme corporation
 "colorscheme 256_jungle
 "colorscheme wells-colors
-"colorscheme railscasts
+colorscheme railscasts
 "colorscheme beekai
 "colorscheme badwolf
-colorscheme solarized
-
-
-let g:cpp_class_scope_highlight = 1
-"let g:rehash256 = 1
+"colorscheme solarized
 
 "Gist-vim
 let g:gist_detect_filetype = 1
@@ -27,8 +23,8 @@ let g:gist_post_private = 1
 
 set autoindent
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 "Replaces tabs with spaces
 set expandtab
 "Highlights trailing whitespaces and tabs
@@ -125,3 +121,5 @@ execute pathogen#infect()
 autocmd vimenter * NERDTree
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 autocmd VimEnter * wincmd p
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
