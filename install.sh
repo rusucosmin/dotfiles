@@ -8,9 +8,7 @@
 ########## Variables
 DIR=~/dotfiles                    # dotfiles directory
 OLD_DIR=~/dotfiles_old             # old dotfiles backup directory
-DOTS=".i3 .vim .wallpapers .bash_aliases .bash_profile .bashrc .gitconfig .vimrc .zshrc"
-ZSH_PLUGINS=".zsh-plugins"
-ZSH_PLUG_DIR=".oh-my-zsh/custom/plugins"
+DOTS=".vim .bash_aliases .bash_profile .bashrc .gitconfig .vimrc"
 
 ########## Create dotfiles_old in homedir
 
@@ -30,15 +28,3 @@ for file in $DOTS; do
     echo "> Creating symlink to $file"
     ln -s $DIR/$file ~/$file
 done
-
-for plug_path in $DIR/$ZSH_PLUGINS/*;
-do
-    plug_name=`basename $plug_path`
-    echo "> Adding plugin $plug_path -> $DIR/$ZSH_PLUG_DIR/$plug_name"
-    ln -s $plug_path $DIR/$ZSH_PLUG_DIR/$plug_name
-done
-
-######## Set ZSH as default shell
-echo ">> Setting zsh as default shell <<"
-echo ">> May require password <<"
-chsh -s /bin/zsh
