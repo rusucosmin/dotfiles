@@ -9,3 +9,6 @@ brew tap heroku/brew && brew install heroku
 
 echo "Installing NVM"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+
+echo "Installing Azure CLI"
+brew install azure-cli
