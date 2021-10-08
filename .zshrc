@@ -92,6 +92,8 @@ gitCommitAllFunction() {
 alias gitCommitAll=gitCommitAllFunction
 alias please='sudo'
 alias geogebra="/usr/lib/geogebra/geogebra-portable"
+alias k="kubectl"
+alias giit="git" # fucking typos
 
 # Key bindings
 bindkey '^ ' autosuggest-accept
