@@ -15,3 +15,13 @@ brew install azure-cli
 
 echo "Installing kubectl"
 brew install kubectl
+
+echo "Installing Postgres"
+brew install postgres
+echo "Creating postgres user"
+brew services start postgres
+createuser -s postgres
+
+echo "Installing Redis"
+brew install redis
+brew services start redis
