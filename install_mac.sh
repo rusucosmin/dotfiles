@@ -36,3 +36,5 @@ for file in $DOTS; do
     echo "> Creating symlink to $file"
     ln -s $DIR/$file ~/$file
 done
+
+defaults write -g ApplePressAndHoldEnabled 0
