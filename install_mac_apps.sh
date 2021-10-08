@@ -12,3 +12,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
 echo "Installing Azure CLI"
 brew install azure-cli
+
+echo "Installing kubectl"
+brew install kubectl
